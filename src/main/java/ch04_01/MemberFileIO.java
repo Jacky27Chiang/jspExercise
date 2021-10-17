@@ -25,7 +25,17 @@ public class MemberFileIO {
 	public void ttttt(String a) {
 
 	}
-
+	
+	public String index() {
+		return "index";
+	}
+	
+	public String toLoginPage() {
+		return "login";
+	}
+	public String toAdminPage() {
+		return "Admin";
+	}	
 	public String getFilePath() {
 		return filePath;
 	}
